@@ -7,4 +7,4 @@ bot.on('message', function (message) {
   }
 })
 
-bot.login('NDQ4NTI0MTEzNTU3MDYxNjQ3.DeXj6g.t_lNRx2VmKFuc8c1dkvSKGvMYg8')
+bot.login('process.env.TOKEN')
