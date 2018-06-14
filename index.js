@@ -11,6 +11,9 @@ bot.on('message', function (message) {
   else if (message.content === '/baptiste') {
     message.reply('merci de patienter')
   }
+  else if (message.content === '/repondre-to-cop1') {
+    message.reply('De type trou noir, les hommes aime les trous peu importe la couleur.')
+  }
 })
 
 bot.login(process.env.TOKEN)
