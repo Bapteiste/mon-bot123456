@@ -15,7 +15,7 @@ bot.on('message', function (message) {
     message.reply('De type trou noir, les hommes aime les trous peu importe la couleur.')
   }
   else if (message.content === '/insulte') {
-    message('BIG NOOB ! HAHAHAHAHAHA SHAME ON U !')
+    message.channel.send('BIG NOOB ! HAHAHAHAHAHA SHAME ON U !')
   }
 })
 
