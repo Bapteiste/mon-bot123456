@@ -20,6 +20,10 @@ bot.on('message', function (message) {
   else if (message.content === '/send-nude') {
     message.channel.send('https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2016/3-whenblackhol.jpg')
   }
+  else if (message.content === '/test') {
+    message.channel.send('bonjour')
+    message.delete(10000)
+  }
 })
 
 bot.login(process.env.TOKEN)
