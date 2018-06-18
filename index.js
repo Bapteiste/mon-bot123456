@@ -8,9 +8,6 @@ bot.on('message', function (message) {
   else if (message.content === '/black-hole') {
     message.reply('je suis un trou, salut !')
   }
-  else if (message.content === '/baptiste') {
-    message.reply('merci de patienter')
-  }
   else if (message.content === '/insulte') {
     message.channel.send('BIG NOOB ! HAHAHAHAHAHA SHAME ON U !')
   }
