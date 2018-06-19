@@ -44,6 +44,7 @@ bot.on('message', function (message) {
     my_string += '  /insulte \n'
     my_string += '  /send-nude \n'
     my_string += '  /kiboolette \n'
+    my_string += '  /send-help \n'
     my_string += '```'
     message.channel.send(my_string)
     message.delete(10000)
