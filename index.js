@@ -35,6 +35,18 @@ bot.on('message', function (message) {
     message.channel.send(my_string)
     message.delete(10000)
   }
+  else if (message.content === '/message-list') {
+    my_string = ''
+    my_string += '***- Liste des commandes messages - \n***'
+    my_string += '```'
+    my_string += '  /black-hole \n'
+    my_string += '  /insulte \n'
+    my_string += '  /send-nude \n'
+    my_string += '  /kiboolette \n'
+    my_string += '```'
+    message.channel.send(my_string)
+    message.delete(10000)
+  }
 })
 
 bot.login(process.env.TOKEN)
