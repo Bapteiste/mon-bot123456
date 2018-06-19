@@ -22,6 +22,10 @@ bot.on('message', function (message) {
     message.channel.send('Wiki : Kiboolette est le nouveau pseudonyme de Catus Fokeur, aussi connue sous son ancien nom Fumeur de Bamboo')
     message.delete(10000)
   }
+  else if (message.content === '/help') {
+    message.channel.send('Commandes principales \n /command-liste')
+    message.delete(10000)
+  }
 })
 
 bot.login(process.env.TOKEN)
