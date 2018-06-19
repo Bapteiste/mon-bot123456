@@ -23,7 +23,9 @@ bot.on('message', function (message) {
     message.delete(10000)
   }
   else if (message.content === '/help') {
-    message.channel.send('Commandes principales \n /command-liste')
+    my_string = '- Commandes principales -\n'
+    my_string += '  /message-list'
+    message.channel.send(my_string)
     message.delete(10000)
   }
 })
